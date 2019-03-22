@@ -8,17 +8,17 @@ with open("openml/__version__.py") as fh:
 
 dependency_links = []
 
-try:
-    import numpy
-except ImportError:
-    print('numpy is required during installation')
-    sys.exit(1)
+#try:
+#    import numpy
+#except ImportError:
+#    print('numpy is required during installation')
+#    sys.exit(1)
 
-try:
-    import scipy
-except ImportError:
-    print('scipy is required during installation')
-    sys.exit(1)
+#try:
+#    import scipy
+#except ImportError:
+#    print('scipy is required during installation')
+#    sys.exit(1)
 
 
 setuptools.setup(name="openml",
